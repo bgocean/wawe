@@ -575,7 +575,6 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     color: #FFF;
     letter-spacing: 0.6px;
-    /*height: 100%;*/
 }
 
 .slider-blog__item-title {
@@ -611,9 +610,104 @@ body {
     padding: 0;
     width: 15px;
     height: 15px;
-    border-radius: 7.5px;    
-    background: #FFF;
+    border-radius: 7.5px;
+    background-color: #FFF;
     outline: none;
-  }
+}
 
+.slick-dots .slick-active button {
+    background-color: #00B2A0;
+}
+
+.team {
+    padding-bottom: 204px;
+}
+
+.team__title {
+    margin-bottom: 212px;
+    text-align: center;
+}
+
+.team__items {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #242121;
+    line-height: 18px;
+    letter-spacing: 0.6px;
+}
+
+.team__name {
+    padding: 25px 0 5px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.team__position {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.pricing {
+    padding: 200px 0 245px;
+    background-color: #F8F8F8;
+}
+
+.pricing_title {
+    margin-bottom: 228px;
+    text-align: center;
+}
+
+.pricing__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.pricing__item {
+    background-color: #FFF;
+    text-align: center;
+    padding: 45px 60px 60px;
+    width: 360px;
+    text-align: left;
+}
+
+.pricing__item li {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #242121;
+    letter-spacing: 0.6px;
+    margin-bottom: 20px;
+}
+
+.pricing__item .pricing__item-name {
+    text-align: center;
+    margin-bottom: 58px;
+    color: #01353E;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.pricing__item .pricing__item-num {
+    position: relative;
+    font-size: 36px;
+    margin-top: 41px;
+    text-align: center;
+}
+
+.pricing__item .pricing__item-num.one{
+    margin-top: 135px;
+}
+
+span{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    position: absolute;
+    transform: translateY(20px);
+}
 
