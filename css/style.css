@@ -131,10 +131,6 @@ body {
     border-bottom: 1px solid #00b2a0;
 }
 
-.header__content {
-    /*font-family: "Montserrat", sans-serif;*/
-}
-
 .header__content-inner {
     display: flex;
     flex-direction: column;
@@ -725,18 +721,120 @@ span {
     background-repeat: no-repeat;
 }
 
-.connection{
+.connection {
     text-align: center;
 }
 
-.connection__title{
+.connection__title {
     margin-bottom: 243px;
 }
 
-.connection__title-items{
+.connection__title-items {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 200px;
+}
+
+.form {
+    width: 570px;
+}
+
+.form input,
+.form textarea {
+    border: none;
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid #DADADA;
+    padding: 18px 0;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #00B2A0;
+    letter-spacing: 0.6px;
+}
+
+.form textarea {
+    min-height: 156px;
+    resize: none;
+}
+
+.form button {
+    border: 1px solid #C4C4C4;
+    background: #FFF;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 18px; /* 75% */
+    color: #242121;
+    letter-spacing: 0.6px;
+    padding: 24px 111px 23px;
+    cursor: pointer;
+    margin-top: 73px;
+}
+
+.contacts {
+    display: block;
+    max-width: 600px;
+    /*max-height: 460px;*/
+    text-align: left;
+    background-color: #F8F8F8;
+}
+
+.contacts p {
+    padding-top: 49px;
+    padding-left: 52px;
+    padding-right: 220px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #242121;
+    letter-spacing: 0.6px;
+}
+
+.footer__social {
     display: flex;
     justify-content: center;
+    gap: 10px;
+    color: #242121;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.6px;
 }
+
+.footer__social--link {
+    color: #242121;
+}
+
+.footer__social--link:hover {
+    color: #00B2A0;
+}
+
+.footer {
+    margin: 200px 0 600px;
+    min-height: 200px;
+    background-image: url("../img/footer-bg.jpg");
+    text-align: center;
+}
+
+.footer .logo {
+    display: inline-block;
+    padding: 89px;
+}
+
+
+
+
 
 
 
