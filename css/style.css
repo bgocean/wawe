@@ -774,6 +774,7 @@ span {
     font-weight: 400;
     line-height: 18px; /* 75% */
     color: #242121;
+    text-transform: uppercase;
     letter-spacing: 0.6px;
     padding: 24px 111px 23px;
     cursor: pointer;
@@ -789,9 +790,7 @@ span {
 }
 
 .contacts p {
-    padding-top: 49px;
-    padding-left: 52px;
-    padding-right: 220px;
+    padding: 49px 227px 16px 52px;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 24px;
     font-weight: 400;
